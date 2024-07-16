@@ -4135,6 +4135,7 @@ td:last-child {
 .s-cta .attention-getter,
 .s-cta .lead {
   font-weight: 300;
+  text-align: center;
 }
 
 /* ------------------------------------------------------------------- 
