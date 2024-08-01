@@ -4698,7 +4698,25 @@ td:last-child {
 }
 
 .contact-list li {
-  padding-left: 0;
+  padding: left 0;
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+}
+
+#social_list2 {
+  display: flex;
+  justify-content: start;
+}
+#social_list2 li a {
+  color: #000;
+}
+#social_list2 li a:hover {
+  color: red;
 }
 
 /* ----- footer social media css start here --- */
