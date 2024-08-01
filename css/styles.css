@@ -4307,6 +4307,8 @@ td:last-child {
 
 .ss-copyright span {
   display: inline-block;
+  margin-left: 45px;
+  margin-left: 50px;
 }
 
 .ss-copyright span::after {
