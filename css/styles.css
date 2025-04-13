@@ -2840,14 +2840,14 @@ td:last-child {
  * ## social list
  * ------------------------------------------------------------------- */
 
-.social-list {
+/* .social-list {
   display: flex;
   align-items: center;
   list-style: none;
   margin: 0;
   text-align: center;
   justify-content: center;
-}
+} */
 
 .social-list li {
   padding-left: 0;
@@ -4706,7 +4706,7 @@ td:last-child {
 .social-list {
   display: flex;
   align-items: center;
-  list-style: none;
+  list-style-type: none;
   margin: 0;
 }
 
@@ -4715,10 +4715,18 @@ td:last-child {
   justify-content: start;
 }
 #social_list2 li a {
-  color: #000;
+  color: #050505;
 }
 #social_list2 li a:hover {
-  color: red;
+  color: rgb(218, 22, 22);
+}
+
+
+#contact_social li a{
+  color: #000000;
+}
+#contact_social li a:hover{
+   color: red;
 }
 
 /* ----- footer social media css start here --- */
@@ -4742,8 +4750,60 @@ td:last-child {
 
 /* --- footer social media css end here */
 .project_area {
-  height: 30rem;
-  width: auto;
+  height: auto;
+  width: 100%;
   background-color: red;
   background: red;
+}
+
+/* =========   project card css design ========== */
+.project-card {
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 20px auto;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.project-details {
+  padding: 10px 10px;
+}
+
+.project-details h3 {
+  margin: 0;
+  padding: 5px 0px;
+  color: #333;
+
+}
+
+.project-details p {
+  text-align: justify;
+  font-size: 1.8rem;
+  color: #666;
+  margin:0;
+}
+
+.project-details a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.project-details a:hover {
+  color: #0056b3;
 }
